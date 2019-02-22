@@ -8,7 +8,7 @@ const UserCard = ({ user, loading }) => {
           <Placeholder.Image square />
         </Placeholder>
       ) : (
-        <Image src={user.avatar} />
+        <Image src={user.avatar} width="100%" height="auto"/>
       )}
 
       <Card.Content>
